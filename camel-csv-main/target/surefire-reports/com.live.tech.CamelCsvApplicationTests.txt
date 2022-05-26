@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.live.tech.CamelCsvApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.679 s <<< FAILURE! - in com.live.tech.CamelCsvApplicationTests
+contextLoads  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Error processing condition on org.apache.camel.spring.boot.CamelAutoConfiguration.routesCollector
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.apache.camel.spring.boot.CamelAutoConfiguration] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@73d16e93]
+Caused by: java.lang.NoClassDefFoundError: org/apache/camel/spring/spi/CamelBeanPostProcessor
+Caused by: java.lang.ClassNotFoundException: org.apache.camel.spring.spi.CamelBeanPostProcessor
+
