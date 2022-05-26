@@ -1,0 +1,15 @@
+Compare Cars : SUV list is not populating 
+
+Steps To Reproduce:
+1. Enter SUV kist as Maruthi
+2. Select Brand As Maruthi
+3.
+
+Expected Result: SUV list shod 
+Actual Result: nor reesults
+
+Env Details :
+
+Test Data :
+
+  	
