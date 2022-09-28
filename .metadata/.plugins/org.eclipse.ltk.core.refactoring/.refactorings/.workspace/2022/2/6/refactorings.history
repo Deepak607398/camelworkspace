@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;camel-ms-a&apos;" deleteContents="true" description="Delete resource &apos;camel-ms-a&apos;" element1="/camel-ms-a" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1644043659165"/>&#x0A;<refactoring comment="Delete resource &apos;camel-ms-b&apos;" deleteContents="true" description="Delete resource &apos;camel-ms-b&apos;" element1="/camel-ms-b" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1644043669053"/>
+</session>

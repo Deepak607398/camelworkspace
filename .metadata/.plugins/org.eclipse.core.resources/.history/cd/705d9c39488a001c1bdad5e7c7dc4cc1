@@ -1,0 +1,6 @@
+package com.example.apachemsb.activemq;
+
+public class MessageRecieverRoute extends RouteBuilder {
+	
+
+}

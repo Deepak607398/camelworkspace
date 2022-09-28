@@ -1,0 +1,14 @@
+package com.example.apachemsb.activemq;
+
+import org.apache.camel.builder.RouteBuilder;
+
+public class MessageRecieverRoute extends RouteBuilder {
+
+	@Override
+	public void configure() throws Exception {
+		from("activemq:route-activemq-queue").to("log:reciever-mesages-activemq");
+		
+	}
+	
+
+}
